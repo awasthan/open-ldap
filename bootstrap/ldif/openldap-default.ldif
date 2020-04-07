@@ -194,3 +194,10 @@ cn: support
 uniquemember: uid=carlos,ou=users,dc=ibm,dc=com
 uniquemember: uid=jackie,ou=users,dc=ibm,dc=com
 uniquemember: uid=tony,ou=users,dc=ibm,dc=com
+
+dn: cn=administrators,ou=groups,dc=ibm,dc=com
+changetype: add
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: administrators
+uniquemember: uid=anand,ou=users,dc=ibm,dc=com
