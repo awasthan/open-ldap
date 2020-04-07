@@ -24,6 +24,17 @@ sn: toddSN
 uid: todd
 userPassword: Passw0rd
 
+dn: uid=prashob,ou=users,dc=ibm,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: prashobCN
+sn: prashobSN
+uid: prashob
+userPassword: Passw0rd
+
 dn: uid=vijay,ou=users,dc=ibm,dc=com
 changetype: add
 objectClass: inetOrgPerson
