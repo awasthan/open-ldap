@@ -21,7 +21,7 @@ oc apply -f deployment/deployment.yaml
 oc delete -f deployment/service.yaml
 oc apply -f deployment/service.yaml
  """ 
-	}
+}
 cleanWs()
 }
 }
