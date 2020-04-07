@@ -1,4 +1,3 @@
-
 ### Setup the Users OU
 dn: ou=users,dc=ibm,dc=com
 changetype: add
@@ -23,6 +22,50 @@ objectClass: top
 cn: toddCN
 sn: toddSN
 uid: todd
+userPassword: Passw0rd
+
+dn: uid=vijay,ou=users,dc=ibm,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: vijayCN
+sn: vijaySN
+uid: vijay
+userPassword: Passw0rd
+
+dn: uid=anand,ou=users,dc=ibm,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: anandCN
+sn: anandSN
+uid: anand
+userPassword: Passw0rd
+
+dn: uid=amar,ou=users,dc=ibm,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: amarCN
+sn: amarSN
+uid: amar
+userPassword: Passw0rd
+
+dn: uid=jyoti,ou=users,dc=ibm,dc=com
+changetype: add
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: jyotiCN
+sn: jyotiSN
+uid: jyoti
 userPassword: Passw0rd
 
 dn: uid=james,ou=users,dc=ibm,dc=com
