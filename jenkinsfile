@@ -12,7 +12,7 @@ node () {
 sh """ 
 make
 oc login ${OCP_API_URL} -u ${OCP_USER} -p ${OCP_PASSWORD} --insecure-skip-tls-verify
-docker login ${OCP_Registry_External_URL} -u $(oc whoami) -p $(oc whoami -t) 
+docker login ${OCP_Registry_External_URL} -u $(oc whoami) -p $(oc whoami -t)
 docker tag osixia/extend-osixia-openldap:0.1.0 ${OCP_Registry_External_URL}/${Namespace}/openldap:${IMAGE_VERSION}
 docker push ${OCP_Registry_External_URL}/${Namespace}/openldap:${IMAGE_VERSION}
 oc project ${Namespace}
