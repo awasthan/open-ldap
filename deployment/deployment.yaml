@@ -22,4 +22,5 @@ spec:
             - containerPort: 389
               name: openldap
       imagePullSecrets:
-        - name: default-dockercfg-mhl5r
+        #- name: default-dockercfg-mhl5r
+        - name: default-dockercfg-lzd52
