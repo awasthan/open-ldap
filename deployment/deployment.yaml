@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
         - name: ldap
-          image: image-registry.openshift-image-registry.svc:5000/ldap/openldap:1.4
+          #image: image-registry.openshift-image-registry.svc:5000/ldap/openldap:1.4
+          image: docker-registry.default.svc:5000/ldap/openldap:1.4
           ports:
             - containerPort: 389
               name: openldap
