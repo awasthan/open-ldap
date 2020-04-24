@@ -17,10 +17,10 @@ spec:
       containers:
         - name: ldap
           #image: image-registry.openshift-image-registry.svc:5000/ldap/openldap:1.4
-          image: docker-registry.default.svc:5000/ldap/openldap:1.4
+          image: docker-registry.default.svc:5000/ldap/openldap:1.5
           ports:
             - containerPort: 389
               name: openldap
       imagePullSecrets:
         #- name: default-dockercfg-mhl5r
-        - name: default-dockercfg-lzd52
+        - name: default-dockercfg-rvtb8
